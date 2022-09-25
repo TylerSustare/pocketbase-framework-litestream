@@ -1,0 +1,5 @@
+dbs:
+  # use the directory our binary is in to properly replicate and restore
+  - path: /usr/local/bin/pb_data/data.db
+    replicas:
+      - url: ${REPLICA_URL}
